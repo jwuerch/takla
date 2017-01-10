@@ -1,0 +1,106 @@
+// Canvas Dependencies //
+$cardo: 'Cardo', sans-serif;
+$josefin: 'Josefin Sans', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
+@import "dependencies/bootstrap.scss";
+@import "dependencies/style.scss";
+@import "dependencies/swiper.scss";
+@import "../css/font-icons";
+@import "dependencies/animate.scss";
+@import "dependencies/responsive.scss";
+@import "dependencies/navbar.scss";
+@import "dependencies/footer.scss";
+@import "dependencies/phone-slug.scss";
+@import "dependencies/contact-modal.scss";
+@import "dependencies/specials.scss";
+@import "dependencies/location-section.scss";
+@import "dependencies/slides.scss";
+//@import "dependencies/meet-the-doctors.scss";
+//@import "dependencies/reviews.scss";
+//@import "dependencies/membership.scss";
+//@import "dependencies/office-tour.scss";
+//@import "dependencies/services.scss";
+//@import "dependencies/patient-forms.scss";
+
+// End Canvas Dependencies //
+
+
+// Variables to define first //
+
+
+
+
+
+// CSS //
+
+body {
+
+}
+
+h1 {
+  font-size:64px;
+}
+
+h2 {
+  font-size:48px;
+}
+
+h3 {
+  font-size:36px;
+}
+
+h4 {
+  font-size:28px;
+}
+
+h5 {
+  font-size:24px;
+}
+
+h6 {
+  font-size:20px;
+}
+
+p {
+  font-size:18px;
+}
+
+.button {
+  border:none;
+  padding-top:4px;
+  box-shadow:none;
+  font-family:$montserrat;
+  font-size:21px;
+  background: #F68823;
+  font-weight:400;
+  border-radius: 98.41px;
+  text-shadow:none;
+
+  &:hover {
+    background:#DA791F;
+  }
+  @media (max-width:500px) {
+    font-size:18px;
+    padding-left:25px;
+    padding-right:25px;
+  }
+}
+
+.content-wrap {
+  padding:0;
+}
+section {
+  h2 {
+    font-family: $cardo;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight:400;
+    @media (max-width:767px) {
+      font-size:44px;
+    }
+  }
+  @media (max-width:767px) {
+    padding:40px 0;
+  }
+}

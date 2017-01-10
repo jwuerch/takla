@@ -25922,7 +25922,8 @@ a.social-icon.si-colored {
   #phone-slug-1-non-mobile .btn-wrap {
     width: 100%;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center; }
   #phone-slug-1-non-mobile .new-patient {
     font-family: "Josefin Sans", sans-serif;
     font-style: italic;
@@ -25967,6 +25968,7 @@ a.social-icon.si-colored {
     color: #424242;
     width: 100%;
     text-align: center;
+    margin-top: 10px;
     margin-bottom: -10px; }
   #phone-slug-1-non-mobile .old-patient-phone {
     font-size: 36px;

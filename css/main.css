@@ -26205,6 +26205,32 @@ h4.modal-title {
 #slide-2 .star-set {
   margin-bottom: 10px; }
 
+#slide-3 h2 {
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  color: #7A7A7A;
+  margin-bottom: 10px;
+  line-height: 52.77px; }
+
+#slide-3 h3 {
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  color: #424242; }
+
+#slide-3 p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 36px;
+  line-height: 45px;
+  color: #424242;
+  font-style: italic;
+  margin-bottom: 30px; }
+
+#slide-3 .button {
+  width: 300px;
+  text-align: center; }
+
 h1 {
   font-size: 64px; }
 
@@ -26229,7 +26255,7 @@ p {
 .button {
   border: none;
   padding-top: 4px;
-  box-shadow: none;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
   font-family: "Montserrat", sans-serif;
   font-size: 21px;
   background: #F68823;

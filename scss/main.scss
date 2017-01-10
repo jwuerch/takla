@@ -67,9 +67,10 @@ p {
 }
 
 .button {
+
   border:none;
   padding-top:4px;
-  box-shadow:none;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,0.50);
   font-family:$montserrat;
   font-size:21px;
   background: #F68823;

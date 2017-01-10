@@ -67,3 +67,34 @@
     margin-bottom:10px;
   }
 }
+
+#slide-3 {
+  h2 {
+    font-family: $cardo;
+    font-weight:400;
+    font-size: 72px;
+    color: #7A7A7A;
+    margin-bottom:10px;
+    line-height: 52.77px;
+  }
+
+  h3 {
+    font-family: $cardo;
+    font-weight:400;
+    font-size: 44px;
+    color: #424242;
+  }
+  p {
+    font-family: $josefin;
+    font-size: 36px;
+    line-height:45px;
+    color: #424242;
+    font-style:italic;
+    margin-bottom:30px;
+  }
+  .button {
+    width:300px;
+    text-align:center;
+
+  }
+}

@@ -26150,35 +26150,60 @@ h4.modal-title {
 #slider {
   padding: 0; }
 
-#slide-1 h2 {
-  font-family: "Cardo", sans-serif;
-  font-size: 72px;
-  color: #FFFFFF;
-  line-height: 40px;
-  font-weight: 400; }
-
-#slide-1 h2:nth-child(1) {
-  margin-left: -50px; }
-
-#slide-1 .slider-caption {
-  margin-top: 125px;
-  margin-right: 100px; }
-
-#slide-1 p {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 25px;
-  font-style: italic;
-  color: #FFFFFF;
-  margin-left: 10px;
-  margin-top: 10px;
-  text-transform: uppercase; }
-
-#slide-1 .btn-wrap {
-  text-align: center; }
+#slide-1 {
+  background-size: cover; }
+  #slide-1 h2 {
+    font-family: "Cardo", sans-serif;
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-weight: 400; }
+  #slide-1 h2:nth-child(1) {
+    margin-left: -50px; }
+  #slide-1 .slider-caption {
+    margin-top: 150px;
+    margin-right: 100px; }
+    @media (max-width: 1200px) {
+      #slide-1 .slider-caption {
+        margin-right: 50px; } }
+  #slide-1 p {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-transform: uppercase; }
+  #slide-1 .btn-wrap {
+    text-align: center; }
 
 .one-page-arrow {
   color: #707070;
   font-size: 50px; }
+
+#slide-2 h2 {
+  font-family: "Cardo", sans-serif;
+  font-weight: 400;
+  font-size: 58px;
+  color: #7A7A7A;
+  line-height: 35px; }
+
+#slide-2 .icon-star3 {
+  color: #FFD900;
+  font-size: 40px; }
+
+#slide-2 p {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  color: #424242;
+  margin-bottom: 50px; }
+
+#slide-2 .author {
+  font-weight: 700; }
+
+#slide-2 .star-set {
+  margin-bottom: 10px; }
 
 h1 {
   font-size: 64px; }

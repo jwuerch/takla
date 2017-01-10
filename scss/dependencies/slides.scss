@@ -1,8 +1,9 @@
 #slider {
-  padding:0;
+  padding: 0;
 }
-
 #slide-1 {
+
+  background-size:cover;
   h2 {
     font-family: $cardo;
     font-size: 72px;
@@ -14,8 +15,11 @@
     margin-left:-50px;
   }
   .slider-caption {
-    margin-top:125px;
+    margin-top:150px;
     margin-right:100px;
+    @media (max-width:1200px) {
+      margin-right:50px;
+    }
 
   }
   p {
@@ -35,4 +39,31 @@
 .one-page-arrow {
   color:#707070;
   font-size:50px;
+}
+
+#slide-2 {
+  h2 {
+    font-family: $cardo;
+    font-weight:400;
+    font-size: 58px;
+    color: #7A7A7A;
+    line-height: 35px;
+  }
+  .icon-star3 {
+    color:#FFD900;
+    font-size:40px;
+  }
+  p {
+    font-family: $josefin;
+    font-style:italic;
+    font-size: 24px;
+    color: #424242;
+    margin-bottom:50px;
+  }
+  .author {
+    font-weight:700;
+  }
+  .star-set {
+    margin-bottom:10px;
+  }
 }

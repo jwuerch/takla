@@ -78,3 +78,91 @@
 #phone-slug-1-mobile {
   background:url('../images/cta-bg.jpg');
 }
+#phone-slug-1-non-mobile {
+  background:url('../images/cta-bg.jpg');
+
+  .row {
+  }
+  .col-sm-4 {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:wrap;
+    padding-top:40px;
+    padding-bottom:40px;
+  }
+  .col-sm-4:nth-child(1), .col-sm-4:nth-child(2) {
+    border-right:2px solid #FFF;
+  }
+  .btn-wrap {
+    width:100%;
+    display:flex;
+    justify-content:center;
+  }
+  .new-patient {
+    font-family: $josefin;
+    font-style:italic;
+    font-size: 22px;
+    color: #424242;
+    line-height: 40px;
+    width:100%;
+    text-align:center;
+  }
+
+  img {
+    width:80%;
+    height:50px;
+  }
+  .button {
+    width: 275px;
+    font-size:14px;
+    margin-top:15px;
+    height:40px;
+    padding-top:0;
+
+
+  }
+  .phone {
+
+    text-align:center;
+  }
+  .clipboard {
+    margin-top:-10px;
+    margin-bottom:20px;
+  }
+  .new-patient-phone {
+    font-family: $montserrat;
+    font-weight:700;
+    font-size: 36px;
+    color: #424242;
+    line-height: 40px;
+    margin-top:-10px;
+    width:100%;
+    text-align:center;
+    &:hover {
+      text-decoration:none;
+    }
+  }
+  .patients {
+    display:flex;
+    margin-top:-10px;
+    justify-content:center;
+  }
+  .old-patient {
+    font-family: $josefin;
+    font-style:italic;
+    font-size: 22px;
+    color: #424242;
+    width:100%;
+    text-align:center;
+    margin-bottom:-10px;
+  }
+  .old-patient-phone {
+   font-size:36px;
+    font-weight:700;
+    width:100%;
+    text-align:center;
+    color:#424242;
+   font-family:$montserrat;
+  }
+}

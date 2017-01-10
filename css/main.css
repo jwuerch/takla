@@ -25908,6 +25908,74 @@ a.social-icon.si-colored {
 #phone-slug-1-mobile {
   background: url("../images/cta-bg.jpg"); }
 
+#phone-slug-1-non-mobile {
+  background: url("../images/cta-bg.jpg"); }
+  #phone-slug-1-non-mobile .col-sm-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  #phone-slug-1-non-mobile .col-sm-4:nth-child(1), #phone-slug-1-non-mobile .col-sm-4:nth-child(2) {
+    border-right: 2px solid #FFF; }
+  #phone-slug-1-non-mobile .btn-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  #phone-slug-1-non-mobile .new-patient {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #424242;
+    line-height: 40px;
+    width: 100%;
+    text-align: center; }
+  #phone-slug-1-non-mobile img {
+    width: 80%;
+    height: 50px; }
+  #phone-slug-1-non-mobile .button {
+    width: 275px;
+    font-size: 14px;
+    margin-top: 15px;
+    height: 40px;
+    padding-top: 0; }
+  #phone-slug-1-non-mobile .phone {
+    text-align: center; }
+  #phone-slug-1-non-mobile .clipboard {
+    margin-top: -10px;
+    margin-bottom: 20px; }
+  #phone-slug-1-non-mobile .new-patient-phone {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #424242;
+    line-height: 40px;
+    margin-top: -10px;
+    width: 100%;
+    text-align: center; }
+    #phone-slug-1-non-mobile .new-patient-phone:hover {
+      text-decoration: none; }
+  #phone-slug-1-non-mobile .patients {
+    display: flex;
+    margin-top: -10px;
+    justify-content: center; }
+  #phone-slug-1-non-mobile .old-patient {
+    font-family: "Josefin Sans", sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    color: #424242;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -10px; }
+  #phone-slug-1-non-mobile .old-patient-phone {
+    font-size: 36px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    color: #424242;
+    font-family: "Montserrat", sans-serif; }
+
 /** Contact Modal **/
 .form-error {
   color: #D56724;

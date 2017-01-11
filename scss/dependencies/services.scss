@@ -1,0 +1,113 @@
+#services {
+  padding:50px 0;
+  .request-appt {
+    text-decoration:underline;
+  }
+  .long-text {
+    font-family: $josefin;
+    font-size: 20px;
+    color: #737270;
+    line-height:25px;
+  }
+
+}
+
+#services-2 {
+  padding:250px 0;
+  background:url('../images/services/takla-cosmetic.jpg');
+  background-size:cover;
+  @media (max-width:1200px) {
+    padding:200px 0;
+  }
+  @media (max-width:991px) {
+    background:none;
+    padding:20px 0;
+  }
+  h4 {
+    font-family: $cardo;
+    font-weight:400;
+    font-size: 48px;
+    color: #575757;
+    letter-spacing: 0;
+  }
+  p {
+    font-family: $josefin;
+    line-height:25px;
+    font-size: 20px;
+    color: #717171;
+  }
+}
+
+#services-3 {
+  .logo {
+    margin-bottom:30px;
+  }
+  .invis {
+    position:absolute;
+    right:0;
+    width:40%;
+    transform:translateY(-75%);
+    @media (max-width:1200px) {
+      width:43%;
+      transform:translateY(-85%);
+    }
+    @media (max-width:991px) {
+      display:none;
+    }
+  }
+  padding:300px 0;
+  background-repeat:no-repeat;
+  background-position-x:100%;
+  @media (max-width:991px) {
+    padding:50px 0;
+  }
+
+  .col-md-5 {
+    margin-right:0;
+    padding-right:0;
+
+  }
+  .col-md-7 {
+  }
+  p {
+    font-family: $josefin;
+    line-height:25px;
+    font-size: 20px;
+    color: #717171;
+  }
+
+  .container {
+
+  }
+}
+#services-3-bg {
+  img {
+
+
+  }
+}
+
+#services-4 {
+  padding:300px 0;
+  background:url('../images/services/takla-implants.jpg');
+  background-repeat:no-repeat;
+  background-position:15% 0%;
+  @media (max-width:1200px) {
+    padding:50px 0;
+    background:none;
+  }
+
+  h4 {
+    font-family: $cardo;
+    font-weight:400;
+    font-size: 48px;
+    color: #575757;
+    letter-spacing: 0;
+  }
+  p {
+    font-family: $josefin;
+    line-height:25px;
+    font-size: 20px;
+    color: #717171;
+  }
+}

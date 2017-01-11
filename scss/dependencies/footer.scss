@@ -48,3 +48,20 @@ a.social-icon.si-colored {
   justify-content:center;
   position:relative;
 }
+
+#copyrights {
+  padding:0;
+  display:flex;
+  align-items:center;
+  padding:40px 0;
+  .center {
+    font-family: $josefin;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 25px;
+    a {
+      color:#FFF;
+    }
+  }
+}

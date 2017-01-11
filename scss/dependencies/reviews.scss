@@ -4,11 +4,14 @@
   background-size:cover;
   background-position:50% 50%;
   background-repeat:no-repeat;
+  @media (max-width:991px) {
+    padding-bottom:0;
+  }
   h2 {
     font-size:48px;
   }
   @media (max-width:991px) {
-    background-size:contain;
+    background-size:cover;
     h2 {
       font-size:38px;
       line-height:43px;
@@ -41,12 +44,16 @@
     }
   }
   .bf-dv {
-    margin-top:200px !important;
+    margin-top:250px !important;
     font-family: $josefin;
     font-size: 20px !important;
     color: #FFFFFF !important;
     letter-spacing: -0.39px !important;
     text-shadow: 0 2px 4px rgba(0,0,0,0.50) !important;
+    @media (max-width:991px) {
+      margin-top:170px !important;
+      padding-bottom:50px;
+    }
     a {
       color:#FFF !important;
       text-decoration:none !important;

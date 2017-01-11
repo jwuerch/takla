@@ -24,7 +24,7 @@
     border-radius:3px;
   }
   .iportfolio {
-    .col-sm-9 {
+    .col-md-9 {
       text-align:left !important;
       p {
         line-height:23px;
@@ -66,4 +66,13 @@
 
 .owl-carousel:hover .owl-nav .owl-prev {
   left:-48px;
+}
+#team-carousel {
+  @media (max-width:991px) {
+    img {
+      margin:0 auto;
+
+      margin-bottom:20px;
+    }
+  }
 }

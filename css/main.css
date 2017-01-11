@@ -26658,6 +26658,43 @@ h4.modal-title {
     font-size: 20px;
     color: #717171; }
 
+#services-carousel {
+  padding: 30px 0; }
+  #services-carousel img {
+    border-radius: 5px; }
+  #services-carousel h4 {
+    font-family: "Cardo", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #7D7C7C;
+    margin-top: 10px; }
+  #services-carousel #oc-portfolio-2:hover .owl-prev, #services-carousel #oc-portfolio-2:hover .owl-next {
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    background: #364155;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 32px;
+    top: 45%; }
+    @media (max-width: 767px) {
+      #services-carousel #oc-portfolio-2:hover .owl-prev, #services-carousel #oc-portfolio-2:hover .owl-next {
+        top: 40%; } }
+    #services-carousel #oc-portfolio-2:hover .owl-prev:hover, #services-carousel #oc-portfolio-2:hover .owl-next:hover {
+      background: #2E3849 !important; }
+  #services-carousel #oc-portfolio-2:hover .owl-prev {
+    left: -62px; }
+  #services-carousel #oc-portfolio-2:hover .owl-next {
+    right: -62px; }
+  @media (max-width: 1400px) {
+    #services-carousel #oc-portfolio-2:hover .owl-prev {
+      left: -36px; }
+    #services-carousel #oc-portfolio-2:hover .owl-next {
+      right: -36px; } }
+
 h1 {
   font-size: 64px; }
 

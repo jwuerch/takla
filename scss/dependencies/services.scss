@@ -111,3 +111,53 @@
     color: #717171;
   }
 }
+
+#services-carousel {
+  padding:30px 0;
+  img {
+    border-radius:5px;
+  }
+  h4 {
+    font-family: $cardo;
+    font-weight:700;
+    font-size: 24px;
+    color: #7D7C7C;
+    margin-top:10px;
+  }
+  #oc-portfolio-2:hover {
+    .owl-prev, .owl-next {
+      width:50px;
+      height:50px;
+      border-radius:0;
+      background:#364155;
+      color:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border:none;
+      font-size:32px;
+      top:45%;
+      @media (max-width:767px) {
+        top:40%;
+      }
+      &:hover {
+        background:#2E3849 !important;
+      }
+    }
+    .owl-prev {
+      left:-62px;
+    }
+    .owl-next {
+      right:-62px;
+    }
+    @media (max-width:1400px) {
+      .owl-prev {
+        left:-36px;
+      }
+      .owl-next {
+        right:-36px;
+      }
+    }
+  }
+
+}

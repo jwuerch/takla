@@ -1,0 +1,105 @@
+#meet-the-team {
+  padding:100px;
+  background:url('../images/bio.jpg');
+  background-size:cover;
+  background-position-y:100px;
+  background-attachment:fixed;
+  padding-bottom:200px;
+  background-repeat:no-repeat;
+  h2 {
+    font-family: $cardo;
+    font-weight:400;
+    font-size: 48px;
+    color: #7A7A7A;
+    line-height: 43.77px;
+    margin-bottom:150px;
+  }
+  h3 {
+    font-family: $cardo;
+    font-size: 36px;
+    color: #757575;
+    font-weight:400;
+    margin-bottom:0;
+  }
+  h4 {
+    font-family: $cardo;
+    font-size: 28px;
+    color: #757575;
+    font-weight:400;
+  }
+  p {
+    font-family: $josefin;
+    font-size: 18px;
+    color: #535353;
+    margin-bottom:20px;
+    font-style:italic;
+    line-height:25px;
+  }
+  p.normal {
+    font-style:normal;
+    font-family:'Open Sans',sans-serif;
+    font-size:16px;
+  }
+  .col-sm-6:nth-child(2) {
+    padding-right:100px;
+    @media (max-width:1200px) {
+      padding-right:0;
+    }
+    @media (max-width:1100px) {
+      padding-right:50px;
+      margin-left:-30px;
+    }
+  }
+  @media (max-width:1100px) {
+    background-position-x:-50px;
+  }
+}
+
+#meet-the-team-mobile {
+  padding:60px;
+  h2 {
+
+  }
+  h2 {
+    font-family: $cardo;
+    font-weight:400;
+    font-size: 48px;
+    color: #7A7A7A;
+    line-height: 43.77px;
+    margin-bottom:50px;
+    @media (max-width:600px) {
+      font-size:36px;
+    }
+  }
+  .center {
+    @media (max-width:600px) {
+      text-align:left !important;
+    }
+  }
+  h3 {
+    font-family: $cardo;
+    font-size: 36px;
+    color: #757575;
+    font-weight:400;
+    margin-bottom:-10px;
+  }
+  h4 {
+    font-family: $cardo;
+    font-size: 28px;
+    color: #757575;
+    font-weight:400;
+  }
+  p {
+    font-family: $josefin;
+    font-size: 18px;
+    color: #535353;
+    margin-bottom:20px;
+    font-style:italic;
+    line-height:25px;
+  }
+  p.normal {
+    font-style:normal;
+    font-family:'Open Sans',sans-serif;
+    font-size:16px;
+  }
+}

@@ -77,6 +77,10 @@
 }
 #phone-slug-1-mobile {
   background:url('../images/cta-bg.jpg');
+  .button {
+    width:90%;
+    font-size:14px;
+  }
 }
 #phone-slug-1-non-mobile {
   background:url('../images/cta-bg.jpg');
@@ -166,5 +170,8 @@
     text-align:center;
     color:#424242;
    font-family:$montserrat;
+  }
+  a:hover {
+    text-decoration:none;
   }
 }

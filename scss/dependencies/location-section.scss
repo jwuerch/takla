@@ -200,3 +200,16 @@
 
 
 }
+
+#contact .col-3 .col-right p {
+  @media (max-width:400px) {
+    font-size:14px;
+  }
+}
+
+#contact .col-3 .col-left {
+  @media (max-width:400px) {
+    padding-left:0;
+    margin-right:10px;
+  }
+}

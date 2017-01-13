@@ -60,3 +60,9 @@ body.stretched #header.full-header .container {
 #primary-menu-trigger {
   font-size:25px;
 }
+#header.transparent-header.full-header #primary-menu > ul {
+  border-right:none;
+}
+#header.transparent-header.full-header #header-wrap {
+  border-bottom:none;
+}

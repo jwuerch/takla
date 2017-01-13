@@ -25804,6 +25804,12 @@ Copyright (c) 2014 Daniel Eden
 #primary-menu-trigger {
   font-size: 25px; }
 
+#header.transparent-header.full-header #primary-menu > ul {
+  border-right: none; }
+
+#header.transparent-header.full-header #header-wrap {
+  border-bottom: none; }
+
 #copyrights {
   background: grey; }
 
@@ -26284,6 +26290,15 @@ h4.modal-title {
       margin: 0;
       margin-top: -100px; } }
 
+@media (max-width: 400px) {
+  #contact .col-3 .col-right p {
+    font-size: 14px; } }
+
+@media (max-width: 400px) {
+  #contact .col-3 .col-left {
+    padding-left: 0;
+    margin-right: 10px; } }
+
 #slider {
   padding: 0; }
 
@@ -26423,7 +26438,7 @@ h4.modal-title {
       background-position-x: -50px; } }
 
 #meet-the-team-mobile {
-  padding: 60px; }
+  padding: 60px 0; }
   #meet-the-team-mobile h2 {
     font-family: "Cardo", sans-serif;
     font-weight: 400;
@@ -26479,7 +26494,6 @@ h4.modal-title {
     margin-bottom: 10px; }
   #team-carousel img {
     width: 240px;
-    height: 300px;
     border-radius: 3px; }
   #team-carousel .iportfolio .col-md-9 {
     text-align: left !important; }
@@ -26574,6 +26588,14 @@ h4.modal-title {
     @media (max-width: 900px) {
       #reviews .bf-dv {
         margin-top: 20px !important; } }
+
+@media only screen and (max-width: 767px) {
+  .widgetHtml#bodyContainer {
+    padding-left: 0 !important; } }
+
+@media (max-width: 767px) {
+  iframe {
+    margin-left: 25px !important; } }
 
 #no-insurance {
   padding-bottom: 100px;
@@ -26894,3 +26916,6 @@ section h2 {
 @media (max-width: 767px) {
   section {
     padding: 40px 0; } }
+
+.form-control {
+  font-size: 16px !important; }

@@ -83,6 +83,7 @@
   }
 }
 .phone-slug-non-mobile {
+  padding-top:5px;
   background:url('../images/cta-bg.jpg');
 
   .row {
@@ -92,7 +93,7 @@
     align-items:center;
     justify-content:center;
     flex-wrap:wrap;
-    padding-top:40px;
+    padding-top:50px;
     padding-bottom:40px;
   }
   .col-sm-4:nth-child(1), .col-sm-4:nth-child(2) {
@@ -164,14 +165,25 @@
     margin-bottom:-10px;
   }
   .old-patient-phone {
-   font-size:36px;
+   font-size:24px;
     font-weight:700;
     width:100%;
     text-align:center;
     color:#424242;
    font-family:$montserrat;
+    position:relative;
+    top:5px;
   }
   a:hover {
     text-decoration:none;
   }
+}
+
+#phone-slug-2-mobile {
+  padding-top:20px;
+}
+
+#phone-slug-2-mobile > div > div:nth-child(1) > div:nth-child(2) > a {
+  position:relative;
+  top:-5px;
 }

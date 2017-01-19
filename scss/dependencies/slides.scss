@@ -103,3 +103,13 @@
 
   }
 }
+
+.swiper-slide, .swiper-container, #slider, .swiper-wrapper {
+  max-height:900px;
+  @media (max-width:1400px) {
+    max-height:800px;
+  }
+  @media (max-width:1200px) {
+    max-height:750px;
+  }
+}

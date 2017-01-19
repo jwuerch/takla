@@ -28,7 +28,7 @@
     height:100px;
 }
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) {
-  background:rgba(255,255,255,.84);
+  background:rgba(255,255,255, 1);
 
 }
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
@@ -41,7 +41,6 @@
   img {
     padding-top:5px;
     padding-bottom:5px;
-
   }
 }
 #primary-menu ul li > a {

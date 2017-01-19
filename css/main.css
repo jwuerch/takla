@@ -25778,7 +25778,7 @@ Copyright (c) 2014 Daniel Eden
   height: 100px; }
 
 #header.sticky-header:not(.static-sticky), #header.sticky-header:not(.static-sticky) #header-wrap, #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) {
-  background: rgba(255, 255, 255, 0.84); }
+  background: white; }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
   padding-top: 39px;
@@ -25939,13 +25939,14 @@ a.social-icon.si-colored {
     font-size: 14px; }
 
 .phone-slug-non-mobile {
+  padding-top: 5px;
   background: url("../images/cta-bg.jpg"); }
   .phone-slug-non-mobile .col-sm-4 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 40px; }
   .phone-slug-non-mobile .col-sm-4:nth-child(1), .phone-slug-non-mobile .col-sm-4:nth-child(2) {
     border-right: 2px solid #FFF; }
@@ -26001,14 +26002,23 @@ a.social-icon.si-colored {
     margin-top: 10px;
     margin-bottom: -10px; }
   .phone-slug-non-mobile .old-patient-phone {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     width: 100%;
     text-align: center;
     color: #424242;
-    font-family: "Montserrat", sans-serif; }
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    top: 5px; }
   .phone-slug-non-mobile a:hover {
     text-decoration: none; }
+
+#phone-slug-2-mobile {
+  padding-top: 20px; }
+
+#phone-slug-2-mobile > div > div:nth-child(1) > div:nth-child(2) > a {
+  position: relative;
+  top: -5px; }
 
 /** Contact Modal **/
 .form-error {
@@ -26063,6 +26073,8 @@ h4.modal-title {
     color: #FFFFFF;
     letter-spacing: -0.77px;
     line-height: 43.77px; }
+  #specials .d-text {
+    font-size: 16px; }
   #specials .box {
     float: left;
     width: 148px;
@@ -26147,8 +26159,15 @@ h4.modal-title {
 .specials-mobile-image img {
   width: 100%; }
 
+#specials > div > div:nth-child(2) > div:nth-child(4) > h6 {
+  line-height: 30px; }
+  @media (max-width: 500px) {
+    #specials > div > div:nth-child(2) > div:nth-child(4) > h6 {
+      line-height: 26px; } }
+
 .google-map-img img {
-  width: 100%; }
+  width: 100%;
+  max-height: 500px; }
 
 #contact {
   background: #364155; }
@@ -26387,6 +26406,15 @@ h4.modal-title {
   width: 300px;
   text-align: center; }
 
+.swiper-slide, .swiper-container, #slider, .swiper-wrapper {
+  max-height: 900px; }
+  @media (max-width: 1400px) {
+    .swiper-slide, .swiper-container, #slider, .swiper-wrapper {
+      max-height: 800px; } }
+  @media (max-width: 1200px) {
+    .swiper-slide, .swiper-container, #slider, .swiper-wrapper {
+      max-height: 750px; } }
+
 #meet-the-team {
   padding: 100px;
   background: url("../images/bio.jpg");
@@ -26533,6 +26561,7 @@ h4.modal-title {
 
 #reviews {
   padding: 60px 0;
+  padding-top: 0;
   background: url("../images/reviews-bg.jpg");
   background-size: cover;
   background-position: 50% 50%;
@@ -26541,7 +26570,9 @@ h4.modal-title {
     #reviews {
       padding-bottom: 0; } }
   #reviews h2 {
-    font-size: 48px; }
+    font-size: 48px;
+    position: relative;
+    top: 60px; }
   @media (max-width: 991px) {
     #reviews {
       background-size: cover; }
@@ -26560,12 +26591,12 @@ h4.modal-title {
     height: 500px !important;
     left: 15px !important;
     position: relative !important;
-    margin-top: 200px !important; }
+    margin-top: 260px !important; }
     @media (max-width: 991px) {
       #reviews iframe {
         width: 75% !important;
         height: 300px !important;
-        margin-top: 130px !important; } }
+        margin-top: 190px !important; } }
     @media (max-width: 900px) {
       #reviews iframe {
         margin-top: 50px !important; } }
@@ -26583,11 +26614,17 @@ h4.modal-title {
     #reviews .bf-dv a {
       color: #FFF !important;
       text-decoration: none !important; }
+      @media (max-width: 900px) {
+        #reviews .bf-dv a {
+          color: #555 !important;
+          text-shadow: none !important; } }
       #reviews .bf-dv a:hover {
         text-decoration: underline !important; }
     @media (max-width: 900px) {
       #reviews .bf-dv {
-        margin-top: 20px !important; } }
+        margin-top: 20px !important;
+        color: #555 !important;
+        text-shadow: none !important; } }
 
 @media only screen and (max-width: 767px) {
   .widgetHtml#bodyContainer {
@@ -26602,9 +26639,29 @@ h4.modal-title {
   background-size: cover;
   background: url("../images/takla-insurance-BG.jpg");
   background-repeat: no-repeat;
-  background-position: 0% 0%; }
+  background-position: 0% 0%;
+  background-position-x: 100%;
+  height: 1200px; }
+  @media (max-width: 1900px) {
+    #no-insurance {
+      background-position-x: 40%; } }
+  @media (max-width: 1550px) {
+    #no-insurance {
+      background-position-x: 20%; } }
+  @media (max-width: 1300px) {
+    #no-insurance {
+      background-position-x: 30%; } }
   #no-insurance .center {
-    padding-top: 630px; }
+    margin-top: 750px; }
+  @media (max-width: 1200px) {
+    #no-insurance {
+      background-position-x: 0% !important;
+      background-size: cover; } }
+  @media (max-width: 1100px) {
+    #no-insurance {
+      height: 820px; }
+      #no-insurance .center {
+        margin-top: 430px; } }
   #no-insurance h2 {
     font-family: "Cardo", sans-serif;
     font-weight: 400;
@@ -26612,6 +26669,11 @@ h4.modal-title {
     color: #FFFFFF;
     letter-spacing: 1.03px;
     margin-bottom: 15px; }
+    @media (max-width: 1100px) {
+      #no-insurance h2 {
+        font-size: 60px;
+        margin-bottom: 0;
+        line-height: 40px; } }
   #no-insurance h4 {
     font-family: "Cardo", sans-serif;
     font-weight: 400;
@@ -26658,7 +26720,7 @@ h4.modal-title {
         font-size: 20px; }
       #no-insurance .col-1 p {
         font-size: 30px; } }
-  @media (max-width: 991px) {
+  @media (max-width: 1200px) {
     #no-insurance {
       background-position-x: 30%; }
       #no-insurance .col-1, #no-insurance .col-2 {
@@ -26671,7 +26733,7 @@ h4.modal-title {
       #no-insurance h2 {
         margin-bottom: 10px; }
       #no-insurance h4 {
-        margin-bottom: 35px; } }
+        margin-bottom: 10px; } }
   @media (max-width: 767px) {
     #no-insurance h2 {
       font-size: 48px;
@@ -26685,10 +26747,47 @@ h4.modal-title {
       font-size: 18px; }
     #no-insurance .col-2 {
       margin-top: 10px; } }
+  @media (max-width: 991px) {
+    #no-insurance h2 {
+      font-size: 50px;
+      margin-bottom: 10px; }
+    #no-insurance .col-1 p {
+      font-size: 25px;
+      line-height: 30px; }
+    #no-insurance .col-2 p {
+      font-size: 18px;
+      margin-top: -15px; }
+    #no-insurance .center {
+      margin-top: 500px; } }
+  @media (max-width: 720px) {
+    #no-insurance {
+      padding-bottom: 50px;
+      background-size: cover; } }
+  @media (max-width: 767px) {
+    #no-insurance {
+      background-size: contain; }
+      #no-insurance .center {
+        margin-top: 250px; } }
+    @media (max-width: 767px) and (max-width: 720px) {
+      #no-insurance .center {
+        margin-top: 230px; } }
+    @media (max-width: 767px) and (max-width: 695px) {
+      #no-insurance .center {
+        margin-top: 40%; } }
+  @media (max-width: 767px) {
+      #no-insurance h2 {
+        font-size: 44px;
+        margin-bottom: 0; } }
+  @media (max-width: 650px) {
+    #no-insurance {
+      background: #364155;
+      height: auto; }
+      #no-insurance .center {
+        margin-top: 0; } }
   @media (max-width: 480px) {
     #no-insurance h2 {
       font-size: 36px;
-      margin-bottom: -20px; }
+      margin-bottom: 0px; }
     #no-insurance h4 {
       font-size: 24px; }
     #no-insurance .col-1 p {
@@ -26698,6 +26797,13 @@ h4.modal-title {
     #no-insurance .col-2 p {
       line-height: 20px;
       margin-bottom: 15px; } }
+
+.no-insurance-below {
+  display: none; }
+
+@media (max-width: 650px) {
+  .no-insurance-below {
+    display: initial; } }
 
 #services {
   padding: 50px 0; }
@@ -26741,12 +26847,12 @@ h4.modal-title {
   #services-3 .invis {
     position: absolute;
     right: 0;
-    width: 40%;
-    transform: translateY(-75%); }
+    width: 30%;
+    transform: translateY(-95%); }
     @media (max-width: 1200px) {
       #services-3 .invis {
-        width: 43%;
-        transform: translateY(-85%); } }
+        width: 35%;
+        transform: translateY(-100%); } }
     @media (max-width: 991px) {
       #services-3 .invis {
         display: none; } }
@@ -26793,7 +26899,21 @@ h4.modal-title {
     font-size: 24px;
     color: #7D7C7C;
     margin-top: 10px; }
+  #services-carousel .owl-prev, #services-carousel .owl-next {
+    opacity: 1 !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+    background: #364155;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 32px;
+    top: 45%; }
   #services-carousel #oc-portfolio-2:hover .owl-prev, #services-carousel #oc-portfolio-2:hover .owl-next {
+    opacity: 1 !important;
     width: 50px;
     height: 50px;
     border-radius: 0;
@@ -26846,7 +26966,8 @@ h4.modal-title {
   margin-bottom: 15px; }
 
 .service-modal img {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  width: 50%; }
 
 .service-modal .modal-dialog {
   background: #FFF; }
